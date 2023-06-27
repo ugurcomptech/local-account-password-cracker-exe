@@ -1,43 +1,35 @@
 # Yerel Hesap Sıfırlama Programı
 
-Bu Python programı, kullanıcıların unuttukları yerel hesaplarının şifrelerini sıfırlamalarına olanak sağlar. Program, bir komut satırı arayüzü kullanır ve kullanıcılar istedikleri yerel hesabın şifresini sıfırlayabilirler.
-
-**Not: Bu program güvenlik amaçlı kullanılmamalıdır ve yalnızca kayıp veya unutulan hesap şifrelerini geri yüklemek için kullanılmalıdır.**
+Bu Python programı, unutulan yerel hesap şifrelerini sıfırlamak için kullanılan bir araçtır. Program, komut satırı arayüzü üzerinden çalışır ve kullanıcıların istedikleri yerel hesabın şifresini sıfırlamalarını sağlar.
 
 ## Özellikler
 
-- Yerel hesapları listeleme: `--net user` komutunu kullanarak sistemdeki yerel hesapları görüntüler.
-- Hesap seçme: Kullanıcı, listelenen hesaplardan birini seçebilir.
-- Şifre sıfırlama: Kullanıcı, seçilen hesabın şifresini sıfırlar.
+- Yerel hesapları listeleme: Program, `net user` komutunu kullanarak sistemdeki yerel hesapları görüntüler.
+- Hesap şifresini sıfırlama: Kullanıcı, seçtiği yerel hesabın şifresini boş olarak sıfırlayabilir.
 
-## Kullanım
+## Nasıl Kullanılır
 
-1. Programı çalıştırmak için aşağıdaki komutu kullanın:
+1. Programı çalıştırmak için sağ tık yapıp yönetici olarak çalıştır deyin:
+Program çalıştırıldığında, sistemdeki yerel hesapların bir listesi görüntülenecektir.
 
+2. Şifresi sıfırlanacak hesabın kullanıcı adını girin:
+`username` yerine sıfırlamak istediğiniz hesabın gerçek kullanıcı adını yazın.
 
-Program çalıştırıldığında, yerel hesapların bir listesi görüntülenecektir.
+3. Şifre sıfırlama işlemi tamamlandığında, program tarafından bir mesaj görüntülenecektir.
 
-2. Şifresi sıfırlanacak hesabı seçmek için `--select_account` parametresini kullanın:
+## Uyarılar
 
-
-Listeden çıkan hesapları görüntüleyerek istediğiniz hesabı seçebilirsiniz.
-
-3. Şifreyi sıfırlamak için seçilen hesabın kullanıcı adını girin:
-
-"username" yerine sıfırlamak istediğiniz hesabın gerçek kullanıcı adını yazın.
-
-4. Şifre sıfırlama işlemi tamamlandığında, program otomatik olarak sonlanacak ve komut satırı kapanacaktır.
-
-**Not: Bu programı kullanmadan önce, güvenlik nedenleriyle mutlaka kullanım koşullarını okuyun ve yalnızca doğru amaçlar için kullanın.**
+- **Güvenlik**: Bu program, sadece kendi hesaplarınızda veya izin verilen sistemlerde kullanılmalıdır. Başka kişilere ait hesapların şifrelerini izinsiz olarak sıfırlamak yasa dışıdır.
+- **Hatalar**: Programın düzgün çalışabilmesi için, Python'un sistemde yüklü olması gerekmektedir. Ayrıca, bazı işletim sistemleri veya güvenlik ayarları, programın yerel hesap şifrelerini sıfırlamasını engelleyebilir.
 
 ## Hata Bildirimi
 
-Herhangi bir hata, sorun veya geri bildiriminiz varsa, lütfen bir konu açarak [GitHub Issues](https://github.com/kullaniciadi/proje-adi/issues) üzerinden bildirin. Size yardımcı olmaktan mutluluk duyarız.
+Eğer herhangi bir hata veya sorunla karşılaşırsanız, lütfen bize bildirin. Hata bildirimlerinizi GitHub üzerinden yapabilirsiniz. Daha fazla bilgi için [Hata Bildirim Rehberi](CONTRIBUTING.md) dosyasına göz atın.
 
-## Güvenlik Uyarısı
+## Katkıda Bulunma
 
-Bu program, bilinçsiz veya kötü niyetli kullanımlara karşı koruma sağlamaz. Sadece kendi bilgisayarınızda ve uygun izinlerle kullanılmalıdır. Başkalarının hesaplarını izinsiz sıfırlamak veya erişmek yasa dışıdır ve ciddi sonuçlara yol açabilir. Kullanırken lütfen etik kurallara ve yasalara uyun.
+Bu program açık kaynaklıdır ve katkıda bulunmak isteyen herkesin katılımına açıktır. Yeni özellikler eklemek, hataları düzeltmek veya programın performansını artırmak için GitHub üzerinden katkıda bulunabilirsiniz. Daha fazla bilgi için [Katkıda Bulunma Kılavuzu](CONTRIBUTING.md) dosyasını inceleyin.
 
 ## Lisans
 
-Bu program MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasını inceleyin.
+Bu program, [MIT Lisansı](LICENSE) altında lisans
