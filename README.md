@@ -33,5 +33,6 @@ Bu program açık kaynaklıdır ve katkıda bulunmak isteyen herkesin katılım�
 ## Lisans
 
 [![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Bu projeyi [GNU Genel Kamu Lisansı (GPL)](https://www.gnu.org/licenses/gpl-3.0) altında lisansladık. Lisansın tam açıklamasını [GNU web sitesinde](https://www.gnu.org/licenses/gpl-3.0) bulabilirsiniz.
 
