@@ -32,6 +32,5 @@ Bu program açık kaynaklıdır ve katkıda bulunmak isteyen herkesin katılım�
 
 ## Lisans
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-Bu projeyi [MIT Lisansı](https://opensource.org/licenses/MIT) altında lisansladık. Lisansın tam açıklamasını burada bulabilirsiniz.
+[GNU web sitesinde](https://www.gnu.org/licenses/gpl-3.0) bulabilirsiniz.
+Bu projeyi GNU Genel Kamu Lisansı (GPL) altında lisansladık. Lisansın tam açıklamasını
