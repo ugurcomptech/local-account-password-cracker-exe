@@ -6,6 +6,7 @@ Bu Python programı, unutulan yerel hesap şifrelerini sıfırlamak için kullan
 
 - Yerel hesapları listeleme: Program, `net user` komutunu kullanarak sistemdeki yerel hesapları görüntüler.
 - Hesap şifresini sıfırlama: Kullanıcı, seçtiği yerel hesabın şifresini boş olarak sıfırlayabilir.
+- Hesabı silme: Kullanıcının seçitği yerel hesabı silebilir.
 
 ## Nasıl Kullanılır
 
