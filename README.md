@@ -1,6 +1,6 @@
 # Yerel Hesap Sıfırlama Programı
 
-Bu Python programı, unutulan yerel hesap şifrelerini sıfırlamak için kullanılan bir araçtır. Program, komut satırı arayüzü üzerinden çalışır ve kullanıcıların istedikleri yerel hesabın şifresini sıfırlamalarını sağlar.
+Bu Python programı, unutulan yerel hesap şifrelerini sıfırlamak veya silmek için kullanılan bir araçtır. Program, komut satırı arayüzü üzerinden çalışır ve kullanıcıların istedikleri yerel hesabın şifresini sıfırlamalarını veya silmelerini sağlar.
 
 ## Özellikler
 
