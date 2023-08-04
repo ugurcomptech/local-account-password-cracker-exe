@@ -21,7 +21,8 @@ Program çalıştırıldığında, sistemdeki yerel hesapların bir listesi gör
 ## Uyarılar
 
 - **Güvenlik**: Bu program, sadece kendi hesaplarınızda veya izin verilen sistemlerde kullanılmalıdır. Başka kişilere ait hesapların şifrelerini izinsiz olarak sıfırlamak yasa dışıdır.
-- **Hatalar**: Programın düzgün çalışabilmesi için, Python'un sistemde yüklü olması gerekmektedir. Ayrıca, bazı işletim sistemleri veya güvenlik ayarları, programın yerel hesap şifrelerini sıfırlamasını engelleyebilir.
+- **Önemli**: Exeye sağ tıklayıp yönetici olarak çalıştırmayı unutmayın yoksa herhangi bir şifre sıfırlama veya silme işlemi gerçekleşmez.
+- **Hatalar**: Python dosyasının düzgün çalışabilmesi için, Python'un sistemde yüklü olması gerekmektedir. Ayrıca, bazı işletim sistemleri veya güvenlik ayarları, programın yerel hesap şifrelerini sıfırlamasını engelleyebilir.
 
 ## Hata Bildirimi
 
